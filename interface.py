@@ -21,7 +21,7 @@ def interface(angle_incidence, n1, n2):
             reflexion = 1
             angle_transmit = angle_incidence
         else:
-            a_t_rad = np.arcsin(min(n1, n2) / max(n1, n2)) * np.sin(angle_incidence.rad())
+            a_t_rad = np.arcsin(min(n1, n2) / max(n1, n2)) * angle_incidence.sinus()
             angle_transmit = RadiantAngle(a_t_rad)
             reflexion = calcul_reflexion(angle_incidence.rad(), angle_transmit.rad())
 

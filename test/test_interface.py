@@ -42,7 +42,7 @@ def interface_n2_smaller(angle_incidence, angle_1, angle_2):
     assert angle_reflechi == - angle_incidence
 
 
-#difficile a tester, il faudrait des valeurs connues
+# difficile a tester, il faudrait des valeurs connues
 def test_calcul_reflexion():
     assert calcul_reflexion(1, 1) == 0
     assert calcul_reflexion(1, 0) == 1

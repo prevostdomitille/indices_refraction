@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Angle:
 
     def __init__(self, degree):
