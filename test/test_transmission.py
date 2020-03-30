@@ -1,5 +1,7 @@
 from transmission import transmission
 
+from Angle import Angle
+
 
 def test_transmission():
-    assert transmission(30, 1, 1) == 0
+    assert transmission(Angle(30), 0, Angle(40)) < 1

@@ -18,6 +18,3 @@ if __name__ == "__main__":
     pyplot.plot(y, np.array(P))
     pyplot.show()
     exit()
-
-
-
